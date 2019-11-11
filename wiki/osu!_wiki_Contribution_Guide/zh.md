@@ -40,6 +40,14 @@ outdated: true
 
 2\. 当你添加、修改了文件以后，会有提示告诉当前分支"behind"（落后）, "ahead"（超前）或者 "even"（同步）于 `ppy:master`。如果提示说 `This branch is {n} commits behind ppy:master`（当前分支落后于 ppy:master 分支 n 个提交），意味着你的分支已经过时了。
 
+   ![](img/fork-even.jpg "可以！ （没有新 commit，没有过期）")
+
+   ![](img/fork-ahead.jpg "可以！ （这些都是你的 commit）")
+
+   ![](img/fork-behind.jpg "有点糟 （你的分支过期了）")
+
+   ![](img/fork-ahead-behind.jpg "有点糟 （你的分支和你的 commit 都过期了）")
+
 3\. 这不是个大问题。只是你无法修改已经被修改的文件，这意味你的仓库落后于最新的提交。
 
 4\. 为了解决这个问题，请看[常见问题——我的分支过期了！](/wiki/owcg/Common_Issues/#我的分支过期了！)。
